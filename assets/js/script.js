@@ -34,33 +34,11 @@ JavaScript:
 (1) 
 
 */
-console.log("test");
+// Display current date/time in header (p id = "currentDay" class = "lead")
 
-for (let i = 9; i < 5; i++) {
-
-    var key="hour-"+i;
-    var data ="asdf";
-
-//template literal show with append HTML to the page
-var template = `
-<div class="row">
-  <div>
-    ${i}AM
-  </div>
-  <div>
-    <textarea></textarea>
-  </div>
-  <div>
-    <button dataHour="${i}">Save</button>
-  </div>
-</div>
-
-`;
-}
-
-//event listner on save click
-containerEl.on("click", function(event) {
-
-    event.target.matches("button");
-
-});
+// variable defining moment day/time and format
+var presentTime = moment().format("LLLL");
+// console.log(presentTime) to ensure moment is working
+console.log(presentTime);
+// 
+$("lead").html(presentTime);
