@@ -33,12 +33,21 @@ CSS:
 JavaScript:
 (1) 
 
+// localStorage.setItem(key, value);
+
 */
 // Display current date/time in header (p id = "currentDay" class = "lead")
-
 // variable defining moment day/time and format
 var presentTime = moment().format("LLLL");
 // console.log(presentTime) to ensure moment is working
 console.log(presentTime);
-// 
-$("lead").html(presentTime);
+// select currentDay HTML element and render our presentTime variable 
+$("#currentDay").html(presentTime);
+
+function typeSave() { 
+
+
+
+ }
+
+

@@ -17,54 +17,30 @@
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
-    <p id="currentDay" class="lead"></p>
+    <!-- remove class "lead" on currentDay and add unique class "rhino" for css font-size modification-->
+    <p id="currentDay" class="rhino"></p>
   </header>
   <!-- add container-fluid for bootstrap to span entire width of viewport -->
   <div class="container-fluid" id="timeEntries">
     <!-- Timeblocks go here -->
     <!-- Use bootstrap to define col/row dimensions and pull in pre defined CSS classes to correct locations. -->
-    <div class="row time-block">
-      <div class=" col-md-2 hour">9AM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
-
-      <div class=" col-md-2 hour">10AM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
-
-      <div class=" col-md-2 hour">11AM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
-
-      <div class=" col-md-2 hour">12AM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
-
-      <div class=" col-md-2 hour">1PM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
-
-      <div class=" col-md-2 hour">2PM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
-
-      <div class=" col-md-2 hour">3PM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
-
-      <div class=" col-md-2 hour">4PM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
-
-      <div class=" col-md-2 hour">5PM</div>
-      <textarea class="col-md-9 description">test</textarea>
-      <button class="saveBtn col-md-1">Save</button>
+    <div class="row">
+      <div class="col-md-2">9AM</div>
+      <div class="col-md-8">text input area</div>
+      <div class="col-md-2">SA</div>
     </div>
+    <div class="row">
+      <div class="col-md-2">9AM</div>
+      <div class="col-md-8">text input area</div>
+      <div class="col-md-2">SA</div>
+    </div>
+
+
   </div>
 
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-      <script src="./assets/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/script.js"></script>
 
 </body>
 
