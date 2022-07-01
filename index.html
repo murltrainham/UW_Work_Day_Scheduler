@@ -17,24 +17,67 @@
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
-    <!-- remove class "lead" on currentDay and add unique class "rhino" for css font-size modification-->
+    <!-- remove class "lead" on currentDay and add unique class "rhino" for better css control-->
     <p id="currentDay" class="rhino"></p>
   </header>
   <!-- add container-fluid for bootstrap to span entire width of viewport -->
-  <div class="container-fluid" id="timeEntries">
+  <div class="timeBlock container-fluid" id="timeEntries">
     <!-- Timeblocks go here -->
     <!-- Use bootstrap to define col/row dimensions and pull in pre defined CSS classes to correct locations. -->
+    <!-- change out div tags to span (inline)for each row -->
     <div class="row">
-      <div class="col-md-2">9AM</div>
-      <div class="col-md-8">text input area</div>
-      <div class="col-md-2">SA</div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">9AM</div>
-      <div class="col-md-8">text input area</div>
-      <div class="col-md-2">SA</div>
+      <span class="hour col-md-2">9AM</span>
+      <textarea class="col" id="userInput9"></textarea>
+      <button class="saveBtn">save</button>
     </div>
 
+    <div class="row">
+      <span class="hour col-md-2">10AM</span>
+      <textarea class="col" id="userInput10"></textarea>
+      <button class="saveBtn">save</button>
+    </div>
+
+    <div class="row">
+      <span class="hour col-md-2">11AM</span>
+      <textarea class="col" id="userInput11"></textarea>
+      <button class="saveBtn">save</button>
+    </div>
+
+    <div class="row">
+      <span class="hour col-md-2">12PM</span>
+      <textarea class="col" id="userInput12"></textarea>
+      <button class="saveBtn">save</button>
+    </div>
+
+    <div class="row">
+    <span class="hour col-md-2">1PM</span>
+    <textarea class="col" id="userInput1300"></textarea>
+    <button class="saveBtn">save</button>
+  </div>
+
+  <div class="row">
+    <span class="hour col-md-2">2PM</span>
+    <textarea class="col" id="userInput1400"></textarea>
+    <button class="saveBtn">save</button>
+  </div>
+
+  <div class="row">
+    <span class="hour col-md-2">3PM</span>
+    <textarea class="col" id="userInput1500"></textarea>
+    <button class="saveBtn">save</button>
+  </div>
+
+  <div class="row">
+    <span class="hour col-md-2">4PM</span>
+    <textarea class="col" id="userInput1600"></textarea>
+    <button class="saveBtn">save</button>
+  </div>
+
+  <div class="row">
+    <span class="hour col-md-2">5PM</span>
+    <textarea class="col" id="userInput1700"></textarea>
+    <button class="saveBtn">save</button>
+  </div>
 
   </div>
 
