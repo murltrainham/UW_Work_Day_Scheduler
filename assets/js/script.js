@@ -35,6 +35,12 @@ JavaScript:
 
 // localStorage.setItem(key, value);
 
+add current moment day/time 
+global variables
+add click listner
+for loop cycle userinput block color change
+
+
 */
 // Display current date/time in header (p id = "currentDay" class = "lead")
 // variable defining moment day/time and format
@@ -44,10 +50,9 @@ console.log(presentTime);
 // select currentDay HTML element and render our presentTime variable 
 $("#currentDay").html(presentTime);
 
-function typeSave() { 
+var userInput = {
+  ""
+}
 
-
-
- }
-
+$()
 
