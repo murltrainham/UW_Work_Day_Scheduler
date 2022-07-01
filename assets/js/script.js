@@ -50,9 +50,13 @@ console.log(presentTime);
 // select currentDay HTML element and render our presentTime variable 
 $("#currentDay").html(presentTime);
 
-var userInput = {
-  ""
+//change text area bg color loop based on presentTime check against static time
+var descriptionColor =() {
+
 }
 
-$()
 
+//listner
+$(".saveBtn").click(function() { 
+  
+});
