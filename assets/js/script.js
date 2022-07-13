@@ -127,3 +127,34 @@ function conditionalTsunami() {
 }
 conditionalTsunami();
 
+/*function loadOrama (){
+
+().each(function(){
+
+});
+
+}
+loadOrama();
+*/
+
+function saveOrama (){
+
+input9 = ("");
+stringify9 = [];
+btn9 = document.getElementById("saveBtn9");
+
+
+btn9.addEventListener("click", function(){
+  input9 = document.getElementById("9").value
+  localStorage.setItem("input9", JSON.stringify(input9));
+});
+
+
+//retreive localdata
+//listen for savebtn click
+//save typed data in local storage
+
+
+
+}
+saveOrama();
