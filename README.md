@@ -1,4 +1,4 @@
-![Image](./assets/images/WorkdayFinal.PNG)
+![Image](./assets/Images/WorkdayFinal.PNG)
 
 # **<u>Work Day Scheduler</u>**
 
