@@ -39,7 +39,7 @@ https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-arra
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
-
+This is quite possibly the most inelegant solution to this problem possible.
 
 //$(".timeblock").addClass("future");
 //$(".hour").addClass("future");
@@ -127,15 +127,7 @@ function conditionalTsunami() {
 }
 conditionalTsunami();
 
-/*function loadOrama (){
 
-().each(function(){
-
-});
-
-}
-loadOrama();
-*/
 function loadOrama (){
 
 unStringify9 = JSON.parse(window.localStorage.getItem("input9"));
